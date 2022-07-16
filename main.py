@@ -18,6 +18,8 @@ while i != len(arr):
         counter += 1
     prev = nxt
     i += 1
-if arr[-2] != nxt:
+if counter == 1:
     result.append([nxt, 1])
+elif counter > 1:
+    result.append([nxt, counter])
 print(result)
