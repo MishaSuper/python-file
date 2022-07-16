@@ -2,7 +2,5 @@
 
 arr = [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0]
 
-for i in set(arr):
-    count = arr.count(i)
-    if count > 1:
-        print(f'Элемент {i} встречается {count} раз')
+print(len(set(arr)))  # count
+print(set(arr))  # elements
